@@ -132,7 +132,7 @@ const App = () => {
 
 	async function scrapSchedule(group, date) {
 		let lessons = []
-		const url = "https://vk-miniapps-osu-schedule-back.herokuapp.com/schedule?group=" + group + "&date=" + date;
+		const url = "https://vk-mini-apps-kksuip-tt.herokuapp.com/schedule?group=" + group + "&date=" + date;
 		let response = await fetch(url);
 		let json = await response.json();
 		lessons = await json;

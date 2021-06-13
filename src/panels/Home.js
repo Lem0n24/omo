@@ -35,7 +35,7 @@ class Home extends React.Component {
 
 	async loadGroups(faculty, potok) {
 		let groups = [];
-		const url = "https://vk-miniapps-osu-schedule-back.herokuapp.com/getgroups?faculty=" + faculty + "&potok=" + potok;
+		const url = "https://vk-mini-apps-kksuip-tt.herokuapp.com/getgroups?faculty=" + faculty + "&potok=" + potok;
 		let response = await fetch(url);
 		let json = await response.json();
 		groups = await json['groups'];
