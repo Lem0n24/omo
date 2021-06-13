@@ -159,7 +159,7 @@ const App = () => {
 					  onClose={() => {
 							setSnackbar(null);
 							try {
-								bridge.send("VKWebAppShare", {"message": "https://vk.com/app7536016"});
+								bridge.send("VKWebAppShare", {"message": "https://vk.com/app7758492"});
 							} catch(e) {
 								console.log(e.error_type);
 							}
